@@ -4,8 +4,7 @@ name: YouTube Automation
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 12 * * *"
-
+  - cron: "0 9,17 * * *"
 jobs:
   test:
     runs-on: ubuntu-latest
